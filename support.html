@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Quiz Support</title>
+    <style>
+        :root {
+            --bg: #f4f5f7;
+            --card: #ffffff;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --accent: #d91f26;
+            --border: #e5e7eb;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(180deg, #fff5f5 0%, var(--bg) 220px);
+            color: var(--text);
+            line-height: 1.65;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 48px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0 0 12px;
+        }
+
+        h1,
+        h2 {
+            color: var(--accent);
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            margin: 0 0 14px;
+        }
+
+        .meta,
+        .muted {
+            color: var(--muted);
+        }
+
+        section + section {
+            margin-top: 26px;
+            padding-top: 22px;
+            border-top: 1px solid var(--border);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="card">
+            <h1>Alpine Quiz Support</h1>
+            <p class="meta">Last updated: March 13, 2026</p>
+            <p class="muted">Need help with gameplay, saved progress, or app behavior? This page covers the most common issues.</p>
+
+            <section>
+                <h2>Frequently Asked Questions</h2>
+
+                <h3>How do I reset my progress?</h3>
+                <p>Open the app, tap the gear icon, and choose <strong>Reset All Progress</strong>. This removes saved local progress, achievements, settings, and recent round history.</p>
+
+                <h3>Why am I not feeling haptic feedback?</h3>
+                <p>Check that your device supports haptics, confirm system haptics are enabled on iPhone, and make sure the in-app <strong>Haptic Feedback</strong> setting is turned on.</p>
+
+                <h3>How do I unlock new canton regions?</h3>
+                <p>Region unlocks are tied to progression. Earn XP, improve your tier, and additional canton regions will become available over time.</p>
+
+                <h3>How does the review mode work?</h3>
+                <p>Questions you miss or skip can reappear in the app’s review practice flow. This helps you replay weaker topics and improve category mastery.</p>
+            </section>
+
+            <section>
+                <h2>Troubleshooting</h2>
+                <p>If the app seems stuck or data looks out of sync, try closing and reopening the app first. If the issue continues, include the following in your support email:</p>
+                <p class="muted">Device model, iOS version, what you tapped before the issue happened, and whether the issue affects saved progress or only the current round.</p>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <p>For support, bug reports, or questions, email <a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a>.</p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
